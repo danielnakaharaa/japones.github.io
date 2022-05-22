@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 >Vocabulario japonês</h1>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium veniam officia mag
+            ni possimus dolores, distinctio quas? Nostrum quasi iste itaque accusantium pariatur nemo perferendis voluptate tempore libero explicabo? Eos, inventore?</p>
+    </section>
+
+   
+    <main class="content">
+        <h2>Moraemasenka?</h2>
+        <table  class="rTable">
+           <thead>
+            <tr>
+                <th>portugues</th>
+                <th>japones</th>
+            </tr>
+        </thead>  
+            <tbody>  
+            <tr>
+                <td>poderia tirar uma foto para gente?</td><!--portugues-->
+                <td class="nihon">sumimasen shashin totte moraemasenka?</td><!--japones-->
+            </tr>
+            <tr>
+                <td>Vocês poderia encenar uma luta de espadas?</td><!--portugues-->
+                <td class="nihon">sumimasen tachimawari wo misete moraemasenka?</td><!--japones-->
+            </tr>
+            
+        </tbody>
+        </table>
+       
+        
+    </main>
+    
+   
+    <main class="content">
+        <h2>Moraemasenka?</h2>
+        <table  class="rTable">
+           <thead>
+            <tr>
+                <th>portugues</th>
+                <th>japones</th>
+            </tr>
+        </thead>  
+            <tbody>  
+            <tr>
+                <td>Quando eu for para o Japão quero visitar pontos turísticos</td><!--portugues-->
+                <td class="nihon">Nihon ni ittara , kankochi ni ikitai</td><!--japones-->
+            </tr>
+            <tr>
+                <td>Vocês poderia encenar uma luta de espadas?</td><!--portugues-->
+                <td class="nihon">sumimasen tachimawari wo misete moraemasenka?</td><!--japones-->
+            </tr>
+            
+        </tbody>
+        </table>
+       
+        
+    </main>
+    <style>
+        body{
+    background-color: #151515;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    width:288px;
+    margin: auto;
+}
+h1::after{
+    display: block;
+    content: '';
+    width: 114px;
+    height: 3px;
+    background: #28c201;
+}
+p{
+    color: rgb(158, 154, 154);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    color: rgb(255 245 0);
+    width: 223px;
+    margin: auto;
+    margin-bottom: 24px;
+    background: black;
+}
+tr{
+    margin-bottom: 20px;
+    color: #28c201;
+}
+tr>td{
+    color: #aea2a2;
+}
+table{
+    max-width: 100%;
+}
+td:hover{
+    background-color: #10ff00;
+    color: #ffffff;
+    cursor: pointer;
+   
+}
+.nihon{
+    color: #e0dede;
+    font-family: cursive;
+    font-size: 20px;
+}
+ 
+
+ .rTable{width: 100%; text-align: center;}
+    .rTable thead{background: black; font-weight: bold; color:#fff;}
+   
+   
+    .rTable th , .rTable td{padding: 7px 0;}
+
+@media screen and (max-width: 480px){
+    .content{width: 94%;}
+
+    
+}
+
+@media only screen and (min-width: 1200px){
+    .content{width:100%;margin-top: 76px;}
+    .rTable tbody tr td:nth-child(1){width:10%;}
+    .rTable tbody tr td:nth-child(2){width:30%;}
+    .rTable tbody tr td:nth-child(3){width:20%;}
+    .rTable tbody tr td:nth-child(4){width:10%;}
+    .rTable tbody tr td:nth-child(5){width:30%;}
+} 
+    </style>
+</body>
+</html>
