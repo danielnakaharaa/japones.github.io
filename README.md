@@ -1,1 +1,1 @@
-# japones.github.io
+# nihongo.github.io
